@@ -4,7 +4,7 @@ services:
   desafio_estagio:
     container_name: desafio_estagio
     build:
-      context: ./Desafio estagio
+      context: .
     ports:
       - 8000:8000
     volumes:
