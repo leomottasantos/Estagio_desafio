@@ -6,7 +6,8 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 ENV PYTHONUNBUFFERED 1
 
-COPY desafio_estagio /desafio_estagio
+COPY . /desafio_estagio
+
 COPY scripts /scripts
 
 WORKDIR /desafio_estagio
